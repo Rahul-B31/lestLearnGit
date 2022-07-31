@@ -49,6 +49,10 @@ Now
 
   cmd git checkout < commit hash code/bracnh name >
 
+  // for going to our master
+   git checkout master
+   
+
 */  
     public static void main(String[] args) {
         int a = 10;
