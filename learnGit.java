@@ -1,4 +1,4 @@
-public class git {
+ class git {
     
 // what is git ?
 //ans: git is version control system
@@ -24,22 +24,30 @@ cmd  esc ":wq"
 
 cmd "git init"
 
-
+--------------------------------------------------
 // for checking the all status of the file 
 
 cmd git status 
-
+---------------------------------------------------
 // for adding the file 
 
 cmd git add <file name> Now, the file is in the 
  staging area
 
+ // staging area means HOLD the changes Before the finally commit 
+
+// Then , for commit the file 
+\cmd git commit -m "message of commit"
+ The message is a meanning ful
+
+// for showing all the before commit command we use is 
+  cmd "git log"
 
 */  
     public static void main(String[] args) {
         int a = 10;
         int b = 20;
-        System.out.println("sum is "+(a+b));
+        System.out.println("sum is "+(a-b));
     }
 
 }
