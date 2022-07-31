@@ -31,7 +31,9 @@ cmd git status
 ---------------------------------------------------
 // for adding the file 
 
-cmd git add <file name> Now, the file is in the 
+cmd git add <file name> or git add . for all the file 
+Now
+, the file is in the 
  staging area
 
  // staging area means HOLD the changes Before the finally commit 
@@ -42,6 +44,10 @@ cmd git add <file name> Now, the file is in the
 
 // for showing all the before commit command we use is 
   cmd "git log"
+
+  // for going back to commit 
+
+  cmd git checkout < commit hash code/bracnh name >
 
 */  
     public static void main(String[] args) {
